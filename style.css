@@ -1,0 +1,109 @@
+* {
+    margin:0;
+    padding:0;
+    transition: 0.3s;
+}
+
+body {
+    background:#343434;
+    color:white;
+}
+h1,h2,h3,h4 {
+    text-align:center;
+}
+
+hr {
+    margin: 20px;
+}
+
+.div1 {
+    display:flex;
+    justify-content:space-around;
+    flex-wrap:wrap-reverse;
+}
+
+.div1 .kwadrat {
+    display:block;
+    width:100px;
+    height:100px;
+    background:#000FAA;
+    border: 2px solid black;
+    margin: 20px;
+    border-radius:50%
+}
+
+.div2 {
+    display:block;
+    text-align:center;
+    margin-top:10%;
+}
+
+.div2 input {
+    display:block;
+    margin: 0 auto;
+}
+
+
+@media only screen and (min-width:100px) {
+    .div1 .kwadrat {
+        border-radius:45%;
+        background:#110FAA;
+    }
+    input {
+        initial-value:1000;
+    }
+}
+@media only screen and (min-width:200px) {
+    .div1 .kwadrat {
+        border-radius:40%;
+        background:#220FAA;
+    }
+}
+@media only screen and (min-width:300px) {
+    .div1 .kwadrat {
+        border-radius:35%;
+        background:#330FAA;
+    }
+}
+@media only screen and (min-width:400px) {
+    .div1 .kwadrat {
+        border-radius:30%;
+        background:#440FAA;
+    }
+}
+@media only screen and (min-width:500px) {
+    .div1 .kwadrat {
+        border-radius:25%;
+        background:#550FAA;
+    }
+}
+@media only screen and (min-width:600px) {
+    .div1 .kwadrat {
+        border-radius:20%;
+        background:#660FAA;
+    }
+}
+@media only screen and (min-width:1100px) {
+    .div1 .kwadrat {
+        border-radius:15%;
+        background:#770FAA;
+    }
+}
+@media only screen and (min-width:1150px) {
+    .div1 .kwadrat {
+        border-radius:10%;
+        background:#880FAA;
+    }
+}
+@media only screen and (min-width:1200px) {
+    .div1 .kwadrat {
+        border-radius:5%;
+        background:#990FAA;
+    }
+}
+@media only screen and (min-width:1250px) {
+    .div1 .kwadrat {
+        border-radius:0%;
+        background:#AA0FAA;
+    }
+}
